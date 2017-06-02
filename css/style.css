@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+
+body{
+	margin: 0;
+	padding: 0;
+	background: antiquewhite;
+	font-family: 'El Messiri', sans-serif;
+}
+
+.wrapper{
+	width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1{
+	display: inline-block;
+    color: #b61d12;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 40px;
+    
+}
+
+h1:hover{
+   transform: translateX(-10%) scale(2);
+  -webkit-transform: translateX(-10%) scale(2);
+  -moz-transform: translateX(-10%) scale(2);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+}
+
+
+header{
+    margin: 10px;
+    padding: 0;
+}
+
+.logo{
+    width: 15%;
+    height: 30%;
+    float: left;
+}
+.logo img{
+    width: 120%;
+    height: 80px;
+}
+
+.nav{
+    width: 85%;
+    float: left;
+}
+.nav ul{
+    margin: 25px;
+    padding: 0;
+    text-align: right;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: #b61d12;
+    font-weight: bold;
+    font-size: 17px;
+}
+.nav ul li a:hover{
+   transform: translateX(8%) scale(1);
+  -webkit-transform: translateX(8%) scale(1);
+  -moz-transform: translateX(8%) scale(1);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+
+.main-image{margin: 0;
+	padding: 0px;
+	text-align: center;
+}
+
+.main-image img{
+    width: 100%;
+    height: 500px;
+}
+
+.about-us{
+    margin: -4px;
+    padding: 0;
+    background: beige;
+}
+.about{
+    text-align: center;
+
+}
+
+
+.about p{
+    font-size: 18px;
+    color: #e41414;
+}
+
+
+.service{
+	margin: 4px;
+	padding: 0;
+	background: rgba(131, 71, 6, 0.21);
+	text-align: center;
+}
+
+.heading{}
+
+
+
+.service-options{
+	width: 33%;
+	height: 500px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+	padding: 10px 15px 0px 10px;
+}
+.service-options img{
+    width: 100%;
+    height: 200px;
+}
+.service-options p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #860d04;
+}
+.service-options a{
+	text-decoration: none;
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #972a02;
+}
+
+.service-options:hover{
+   transform: translateY(5%) scale(1);
+  -webkit-transform: translateY(5%) scale(1);
+  -moz-transform: translateY(5%) scale(1);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+}
+.planing{
+	margin: -4px;
+	padding: 0;
+	text-align: center;
+	background: beige;
+	height: 60vh;
+}
+.headding h1{
+	display: inline-block;
+}
+
+.icons{
+	    width: 16.66%;
+	    height: 250px;
+	    float: left;
+	    box-sizing: border-box;
+	    padding: 20px 20px 20px 20px;
+	    text-align: center;
+}
+.icons img{
+    width: 80%;
+    margin: 0 auto;
+    background: #9E9E9E;
+    border-radius: 100%;
+}
+.icons p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: brown;
+}
+
+.icons:hover{
+   transform: translateY(-4%) scale(1);
+  -webkit-transform: translateY(-4%) scale(1);
+  -moz-transform: translateY(-4%) scale(1);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+.contact{
+	margin: 0 auto;
+	padding: 0;
+	background: rgb(241, 241, 241);
+	height: 40vh;
+}
+
+.address{
+	    width: 50%;
+	    float: left;
+	    text-align: center;
+	    margin-top: 50px;
+}
+.address h3{
+    font-size: 25px;
+    color: brown;
+}
+.address p{
+    font-size: 20px;
+    color: #860d04;
+}
+
+
+.social-box{
+	width: 50%;
+	float: left;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.social-box ul{
+      margin: 30px;
+      padding: 0;
+}
+
+.social-box ul li{
+      display: inline-block;
+    list-style: none;  
+}
+
+.social-box ul li a{
+      color: white;
+      width: 30px;
+      height: 30px;
+      display: block;
+      line-height: 30px;
+      border-radius: 50%;
+      background: brown;
+}
+
+.fa{
+ 
+}
+
+.fa:hover {
+  
+}
+
+
+.footer{background: rgba(131, 71, 6, 0.21);}
+.left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.left p{
+    font-size: 15px;
+        color: #860d04;
+    margin: 2px;
+}
+
+.right{
+	width: 50%;
+    float: left;
+    text-align: right;
+}
+.right p{
+    font-size: 15px;
+        color: #860d04;
+    margin: 2px;
+}
